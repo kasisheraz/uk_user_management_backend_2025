@@ -1,0 +1,13 @@
+C:\Development\user-management-app\src\main\java\com\example\entity\User.java
+C:\Development\user-management-app\src\main\java\com\example\controller\UserController.java
+C:\Development\user-management-app\src\main\java\com\example\service\UserRegistrationRequest.java
+C:\Development\user-management-app\src\main\java\com\example\dto\UserRegistrationRequest.java
+C:\Development\user-management-app\src\main\java\com\example\controller\AuthController.java
+C:\Development\user-management-app\src\main\java\com\example\repository\UserRepository.java
+C:\Development\user-management-app\src\main\java\com\example\service\UserService.java
+C:\Development\user-management-app\src\main\java\com\example\Application.java
+C:\Development\user-management-app\src\main\java\com\example\repository\RoleRepository.java
+C:\Development\user-management-app\src\main\java\com\example\DataLoader.java
+C:\Development\user-management-app\src\main\java\com\example\dto\UserLoginRequest.java
+C:\Development\user-management-app\src\main\java\com\example\security\AuthenticationProvider.java
+C:\Development\user-management-app\src\main\java\com\example\entity\Role.java
