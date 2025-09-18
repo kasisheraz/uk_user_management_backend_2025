@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>user-management-app</artifactId>
+    <artifactId>uk-user-management-backend-2025</artifactId>
     <version>0.1</version>
     <packaging>jar</packaging>
 

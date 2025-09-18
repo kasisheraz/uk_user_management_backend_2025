@@ -25,13 +25,13 @@
           <entry name="$MAVEN_REPOSITORY$/io/micronaut/micronaut-core-reactive/4.2.3/micronaut-core-reactive-4.2.3.jar" />
           <entry name="$MAVEN_REPOSITORY$/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar" />
         </processorPath>
-        <module name="user-management-app" />
+        <module name="uk-user-management-backend-2025" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="user-management-app" options="-parameters -Amicronaut.processing.group=com.example -Amicronaut.processing.module=user-management-app" />
+      <module name="uk-user-management-backend-2025" options="-parameters -Amicronaut.processing.group=com.example -Amicronaut.processing.module=user-management-app" />
     </option>
   </component>
 </project>
