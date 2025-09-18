@@ -1,0 +1,39 @@
+micronaut:
+  application:
+    name: userManagementAppTest
+  security:
+    authentication: bearer
+    token:
+      jwt:
+        signatures:
+          secret:
+            generator:
+              secret: "testSecretKey123456789012345678901234567890"
+        generator:
+          access-token:
+            expiration: 3600
+
+datasources:
+  default:
+    url: jdbc:h2:mem:testDb;DB_CLOSE_ON_EXIT=FALSE;DB_CLOSE_DELAY=-1
+    driverClassName: org.h2.Driver
+    username: sa
+    password: ''
+    dialect: H2
+
+jpa:
+  default:
+    properties:
+      hibernate:
+        hbm2ddl:
+          auto: create-drop
+        show_sql: false
+        format_sql: false
+
+# Disable console logging for cleaner test output
+logger:
+  levels:
+    io.micronaut.security: WARN
+    org.hibernate: WARN
+    com.zaxxer.hikari: WARN
+    ROOT: WARN

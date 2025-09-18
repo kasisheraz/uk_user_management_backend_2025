@@ -1,0 +1,37 @@
+{
+  "resources" : [ {
+    "pattern" : "\\Qlogback.xml\\E"
+  }, {
+    "pattern" : "\\QMETA-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.example.$DataLoader$Definition$Intercepted$Definition$Reference\\E"
+  }, {
+    "pattern" : "\\QMETA-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.example.controller.$UserController$Definition$Reference\\E"
+  }, {
+    "pattern" : "\\QMETA-INF/micronaut/io.micronaut.core.beans.BeanIntrospectionReference/com.example.entity.$Role$IntrospectionRef\\E"
+  }, {
+    "pattern" : "\\Qapplication.yml\\E"
+  }, {
+    "pattern" : "\\QMETA-INF/micronaut/io.micronaut.core.beans.BeanIntrospectionReference/com.example.entity.$User$IntrospectionRef\\E"
+  }, {
+    "pattern" : "\\QMETA-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.example.repository.$RoleRepository$Intercepted$Definition$Reference\\E"
+  }, {
+    "pattern" : "\\QMETA-INF/micronaut/io.micronaut.core.beans.BeanIntrospectionReference/com.example.service.$UserRegistrationRequest$IntrospectionRef\\E"
+  }, {
+    "pattern" : "\\QMETA-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.example.$DataLoader$Definition$Reference\\E"
+  }, {
+    "pattern" : "\\QMETA-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.example.repository.$UserRepository$Intercepted$Definition$Reference\\E"
+  }, {
+    "pattern" : "\\QMETA-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.example.service.$UserService$Definition$Reference\\E"
+  }, {
+    "pattern" : "\\QMETA-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.example.controller.$AuthController$Definition$Intercepted$Definition$Reference\\E"
+  }, {
+    "pattern" : "\\QMETA-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.example.controller.$AuthController$Definition$Reference\\E"
+  }, {
+    "pattern" : "\\QMETA-INF/micronaut/io.micronaut.core.beans.BeanIntrospectionReference/com.example.dto.$UserLoginRequest$IntrospectionRef\\E"
+  }, {
+    "pattern" : "\\QMETA-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.example.security.$AuthenticationProvider$Definition$Reference\\E"
+  }, {
+    "pattern" : "\\QMETA-INF/micronaut/io.micronaut.inject.BeanDefinitionReference/com.example.service.$UserService$Definition$Intercepted$Definition$Reference\\E"
+  }, {
+    "pattern" : "\\QMETA-INF/micronaut/io.micronaut.core.beans.BeanIntrospectionReference/com.example.dto.$UserRegistrationRequest$IntrospectionRef\\E"
+  } ]
+}

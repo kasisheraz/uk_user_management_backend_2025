@@ -1,0 +1,39 @@
+micronaut:
+  application:
+    name: userManagementApp
+  security:
+    authentication: bearer
+    token:
+      jwt:
+        signatures:
+          secret:
+            generator:
+              secret: "mySecretKey123456789012345678901234567890" # Change this in production
+        generator:
+          access-token:
+            expiration: 3600 # 1 hour
+
+datasources:
+  default:
+    url: jdbc:h2:mem:devDb;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE
+    driverClassName: org.h2.Driver
+    username: sa
+    password: ''
+    dialect: H2
+
+jpa:
+  default:
+    properties:
+      hibernate:
+        hbm2ddl:
+          auto: create-drop
+        show_sql: true
+
+# For future MySQL configuration:
+# datasources:
+#   default:
+#     url: jdbc:mysql://localhost:3306/user_management_db
+#     driverClassName: com.mysql.cj.jdbc.Driver
+#     username: your_username
+#     password: your_password
+#     dialect: MYSQL
